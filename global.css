@@ -1,0 +1,70 @@
+body {
+  background: white;
+}
+
+#background {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  z-index: 0;
+}
+
+#pong {
+  border: 2px solid #CACACA;
+  cursor: crosshair;
+  left: 10px;
+  top: 10px;
+  z-index: 1;
+}
+
+.info {
+  margin: 10px;
+}
+
+.world {
+  position: absolute;
+  width: 900px;
+  height: 550px;
+  top: 10px;
+  left: 10px;
+  cursor: crosshair;
+}
+
+#messages {
+  padding: 6px;
+  border: 1px solid #CACACA;
+  background: rgba(240, 234, 214, 0.3);
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  z-index: 2;
+}
+
+#intro {
+  padding: 6px;
+  border: 1px solid #CACACA;
+  background: rgba(240, 234, 214, 0.3);
+  position: absolute;
+  top: 225px;
+  left: -5px;
+  z-index: 2;
+}
+
+.scoreboard {
+  padding: 4px 10px;
+  border: 1px solid #CACACA;
+  background: rgba(240, 234, 214, 0.3);
+  color: rgba(75, 75, 75, 0.6);
+  position: absolute;
+  bottom: -5px;
+
+  font-size: 4em;
+}
+
+#playerScore1 {
+  left: -5px;
+}
+
+#playerScore2 {
+  right: -5px;
+}
